@@ -1,0 +1,23 @@
+div.pags {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+div.pags button {
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #B4B4B4;
+    color: #B4B4B4;
+}
+
+div.pags button:hover {
+    background-color: #B4B4B4;
+    color: white;
+}
+.turnRight{
+    transform: rotate(180deg);
+}

@@ -1,0 +1,58 @@
+div.modalCreateGift {
+    background-color: hsla(0, 0%, 0%, 0.356);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.modalCreateGift div.contentModal {
+    padding: 28px 30px;
+    width: 40vw;
+    min-height: 50vh;
+    background-color: white;
+    border-radius: 8px;
+}
+
+div.contentModal div.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+
+div.content div.row {
+    display: flex;
+    gap: 46px;
+}
+
+div.content div.row div.img,
+div.content div.row div.overViewProduct {
+    flex: 1;
+}
+
+div.content div.row img {
+    max-width: 100%;
+    width: 400px;
+    height: 443px;
+}
+
+div.overViewProduct p.nameProduct {
+    font-size: 28px;
+}
+
+button.btnClose {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.content form div.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}

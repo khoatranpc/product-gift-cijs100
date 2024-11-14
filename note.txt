@@ -1,0 +1,9 @@
+- tạo context, cung cấp toán bộ dữ liệu của product
+
+- Folder:
+store
+-> khởi context với hàm createContext: -> state và setState
+-> Khởi tạo StoreProvider -> bọc cho App
+
+Sau khi cấu hình xong
+-> thực lấy dữ liệu ra để render (useContext(Store))

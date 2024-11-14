@@ -1,0 +1,15 @@
+div.likeNow h1.likeText {
+    font-size: 32px;
+    color: #E6656E;
+    font-weight: 500;
+    margin-bottom: 56px;
+}
+
+div.likeNow div.imageDes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+div.likeNow div.imageDes p{
+    font-size: 24px;
+}
